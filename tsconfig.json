@@ -1,0 +1,13 @@
+{
+	"compilerOptions": {
+		"noEmit": true,
+		"lib": ["ESNext", "DOM"],
+		"strict": true,
+
+		// "module": "ESNext", // doesn't need to be enabled
+
+		// "moduleResolution": "Node" // works
+		"moduleResolution": "Node16" // markmap-lib fails
+		// "moduleResolution": "bundler" // markmap-lib fails
+	}
+}
